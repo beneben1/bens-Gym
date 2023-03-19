@@ -1,0 +1,43 @@
+.menu{
+    width: 400px;
+    float: left;
+    height: 200px;
+    top: 30px;
+ }
+
+ ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ ul li{
+   cursor: pointer;
+   font-size: 15px;
+   letter-spacing: 1px;
+   margin-left: 20px;
+   margin-top: 10px;
+  }  
+
+  ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+  }
+
+  ul li a:hover{
+    color: rgb(212, 174, 37);
+  }
+  .LOGO
+  {
+    position: fixed;
+    height: auto;
+    right: 30px;
+    width: 200px;
+
+
+  }
+
